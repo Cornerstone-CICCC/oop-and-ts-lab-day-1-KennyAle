@@ -201,3 +201,6 @@ snake.eat();
 console.log("\n--- Attacks ---");
 eagle.attack(lion);
 lion.attack(snake);
+
+// Display the remaining number of animals with energy
+console.log(`\nRemaining animals with energy: ${Animal.remainingAnimals}`);
